@@ -188,10 +188,10 @@ public class Program
         String opsi = sc.next();
         float hasil;
         if (opsi.contentEquals("f") || opsi.contentEquals("F")) {
-            hasil = (i_c * 9 / 5) + 32;
+            hasil = (i_c * 9.0 / 5.0) + 32;
             System.out.println("\nNilai dalam Farenheit = " + hasil);
         } else if (opsi.contentEquals("r") || opsi.contentEquals("R")) {
-            hasil = i_c * 4 / 5;
+            hasil = i_c * 4.0 / 5.0;
             System.out.println("\nNilai dalam Reamur = " + hasil);
         } else if (opsi.contentEquals("k") || opsi.contentEquals("K")) {
             hasil = (float) (i_c + 273.15);
