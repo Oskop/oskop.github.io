@@ -795,8 +795,8 @@ call-to-action .button {
    color: #fff
 }
 #testimonials blockquote cite {
-   display: block;
-   font-size: 12px;
+   display: inline;
+   font-size: 14px;
    font-style: normal;
    line-height: 18px;
    color: #fff;
